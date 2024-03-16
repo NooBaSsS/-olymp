@@ -6,7 +6,7 @@ import datetime
 from tabulate import tabulate
 
 WIDTH = 3
-HEIGHT = 10
+HEIGHT = 20
 
 player_pos = [WIDTH // 2, HEIGHT - 2]  # позиция игрока
 
