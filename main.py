@@ -2,6 +2,7 @@ import random
 import os
 import time
 import keyboard
+import datetime
 from tabulate import tabulate
 
 WIDTH = 3
@@ -117,7 +118,7 @@ def save_score(score):
         global score_path
         score_path = os.path.abspath(file.name)
         # Записываем счет в файл
-        file.write(f'Score: {score}\n')
+        file.write(f'Score: {score} \n')
 
 
 print(output)
